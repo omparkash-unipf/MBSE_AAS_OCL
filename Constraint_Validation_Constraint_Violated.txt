@@ -1,0 +1,43 @@
+==== GENERAL INFORMATION ====
+Output file name: Constraint_Validation_Constraint_Violated.txt
+Author: om.parkash
+
+
+==== RESOURCES USED ====
+Model checked: 
+				platform:/resource/greenProd/model/Demo_ShopFloor_Violated_Constraint_Validation.xmi
+				platform:/resource/greenProd/model/demo.ecore
+
+
+==== METRICS ====
+Total number of evaluated constraints: 3
+- Number of Success: 0
+- Number of Infos: 0
+- Number of Warnings: 3
+- Number of Errors: 0
+- Number of Failures: 0
+
+
+==== LOGS ====
+- Warnings:
+			 Resource: platform:/resource/greenProd/model/demo.ecore
+			 Invariant: AppropriateTemperature
+			 Expression: 
+			self.currentTemperature < self.thresholdTemperature
+			 Severity: WARNING
+			 Message: The 'Demo_ShopFloor::AppropriateTemperature' constraint is violated for 'Demo_ShopFloor'
+				-------------
+			 Resource: platform:/resource/greenProd/model/demo.ecore
+			 Invariant: ProcessSequenceConstraint
+			 Expression: 
+			self.IntermediateProcesses->forAll(p1, p2 | p1 <> p2 implies (p1.processSequenceOrder < p2.processSequenceOrder implies p1.processType < p2.processType))
+			 Severity: WARNING
+			 Message: The 'Demo_ShopFloor::ProcessSequenceConstraint' constraint is violated for 'Demo_ShopFloor'
+				-------------
+			 Resource: platform:/resource/greenProd/model/demo.ecore
+			 Invariant: UniqueProcessOrderConstraint
+			 Expression: 
+			self.IntermediateProcesses->isUnique(p | p.processSequenceOrder)
+			 Severity: WARNING
+			 Message: The 'Demo_ShopFloor::UniqueProcessOrderConstraint' constraint is violated for 'Demo_ShopFloor'
+				-------------

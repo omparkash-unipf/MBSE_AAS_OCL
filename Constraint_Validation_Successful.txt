@@ -1,0 +1,22 @@
+==== GENERAL INFORMATION ====
+Output file name: Constraint_Validation_Successful.txt
+Author: om.parkash
+
+
+==== RESOURCES USED ====
+Model checked: 
+				platform:/resource/greenProd/model/Demo_ShopFloor_Successful_Constraint_Validation.xmi
+				platform:/resource/greenProd/model/demo.ecore
+
+
+==== METRICS ====
+Total number of evaluated constraints: 3
+- Number of Success: 3
+- Number of Infos: 0
+- Number of Warnings: 0
+- Number of Errors: 0
+- Number of Failures: 0
+
+
+==== LOGS ====
+No log to display: models has been successfully validated.
