@@ -1,0 +1,21 @@
+{
+    "ValidationSummary": {
+        "Number of evaluated constraints": "3",
+        "Number of successful constraints": "0",
+        "Number of violated constraints": "3",
+        "Violations": [
+            {
+                "ConstraintName": "AppropriateTemperature",
+                "Result": "Constraint Violated"
+            },
+            {
+                "ConstraintName": "ProcessSequenceConstraint",
+                "Result": "Constraint Violated"
+            },
+            {
+                "ConstraintName": "UniqueProcessOrderConstraint",
+                "Result": "Constraint Violated"
+            }
+        ]
+    }
+}
