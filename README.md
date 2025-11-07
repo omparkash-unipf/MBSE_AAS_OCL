@@ -17,11 +17,11 @@ The workflow integrates model-driven engineering concepts with AAS technology th
 The process is supported by a dedicated OCL Validation Component (OVC), currently under development.
 
 # Dependencies
-AutomationML
-Eclipse Modeling Framework (EMF)
-Eclipse OCL Plugin
-Python 3.11+
-Eclipse BaSyx (for AAS handling)
+1. AutomationML
+2. Eclipse Modeling Framework (EMF)
+3. Eclipse OCL Plugin
+4. Python 3.11+
+5. Eclipse BaSyx (for AAS handling)
 
 
 # How to Reproduce
